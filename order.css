@@ -1,0 +1,83 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    h1 {
+      text-align: center;
+    }
+.beranda {
+  width: 100%;
+background: rgb(87,108,188);
+background: linear-gradient(0deg, rgba(87,108,188,1) 0%, rgba(25,55,109,1) 100%);
+  padding-bottom: 131px;
+  padding-top: 50px;
+}
+.order h1 {
+  padding-top: 50px;
+    font-size: 24px;
+  margin-bottom: 20px;
+color: white;
+}
+form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+margin: auto;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.tombol {
+  background-color: #687EFF;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.tombol:hover {
+  background-color: transparent;
+  border: 2px solid #687EFF;
+  cursor: pointer;
+  color: black;
+}
+
+#terimakasih {
+  display: none;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #4caf50;
+  text-align: center;
+}
+#terimakasih img {
+  border-radius: 15px;
+  height: 10em;
+}
+
+
+
+

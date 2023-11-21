@@ -1,0 +1,738 @@
+@media only screen and (max-width: 450px)	{
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+.home	{
+	height: 75vh;
+	width: 100%;
+	background-color: #101010;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 100px;
+	padding-left: 100px;
+	background-color: white;
+	border-bottom: 3px solid #0074E4;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.logo {
+	cursor: pointer;
+}
+.logo img {
+	width: 150px;
+	height: auto;
+}
+span {
+	color: #00A9FF;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	font-family: serif;
+	text-decoration: none;
+}
+nav ul li a {
+	color: #0074E4;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #071952;
+	transition: 0.5s;
+}
+.btn:active {
+	color: red;
+}
+.image {
+	width: 25vw;
+	height: 90vh;
+	position: absolute;
+	border: 0;
+	right: 30px;
+}
+/*shiroko*/
+.image img{
+	width: auto;
+	height: 50vh;
+	position: absolute;
+	border: 0;
+	right: 23%;
+	top: 5%;
+	transform: translateX(20%);
+	margin-top: 100px;
+}
+.content {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	transform: translateX(-50%);
+}
+.content h4 {
+	letter-spacing: 2px;
+	font-size: 3vw;
+	font-family: Georgia, serif;
+	margin-bottom: 2vh;
+}
+.content h1 {
+	font-size: 3vw ;
+	margin: 20px 0px 20px;
+	font-family: Georgia, serif;
+}
+.content h3 {
+	font-size: 4vw;
+	margin-bottom: 50px ;
+	font-family: Georgia, serif;
+	margin-top: 1vh ;
+}
+.content a {
+	font-size: 3vw;
+	background: #6499E9;
+	color: white;
+	display: inline-block;
+	padding: 2vh 3vw;
+	border-radius: 30px;
+	border: 20x solid white;
+	transition: 0.5s;
+}
+.content a:hover {
+	background: transparent;
+	border: 2px solid #A6F6FF;
+}
+.about {
+	width: 100%;
+	padding: 5vh 5vw;
+	background-color: #191919;
+}
+.about-me {
+	width: 1130px;
+	max-width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-me img {
+	height: 50vh;
+	width: auto;
+	border-radius: 10px;
+}
+.about-text {
+	width: 250px;
+}
+.about-text h2 {
+	color: white;
+	font-size: 8vw;
+	white-space: nowrap;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #687EFF;
+}
+
+.about-text p {
+	color: #fcfc;
+	letter-spacing: 1px;
+	word-spacing: -2px;
+	line-height: 20px;
+	font-size: 3vw;
+	margin-bottom: 45px;
+	text-align: justify;
+	margin-left: 2vw;
+}
+.button {
+	background-color: #687EFF;
+	color: white;
+	border: 2px solid white;
+	font-weight: bold;
+	padding: 2vh 3vw;
+	border-radius: 30px;
+	transition: 0.3s;
+}
+.button:hover {
+	background-color: transparent;
+	border: 2px solid #687EFF;
+	cursor: pointer;
+}
+.services {
+	background: #101010;
+	width: 100%;
+	padding: 5vh 6vw;
+}
+.title h2 {
+	color: white;
+	font-size: 8vw;
+	width: 100%;
+	margin-bottom: 30px auto;
+	text-align: center;
+}
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 40vh;
+}
+.kartu {
+	height: 60vh;
+	width: 40vw;
+	padding: 5vh 5vw;
+	background: #141414;
+	border-radius:20px ;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid #687EFF;
+}
+.kartu i {
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0;
+	color: #00A9FF;
+}
+.kartu h5 {
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p {
+	color: #fcfc;
+	font-size: 2vw;
+	line-height: 2vw;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+.pra p a {
+	background-color: #687EFF;
+	color: white;
+	border: 2px solid white;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+}
+.pra p a:hover {
+	background-color: transparent;
+	border: 2px solid #687EFF;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.kontak {
+	background: #191919;
+	width: 100%;
+	padding: 100px 0;
+}
+.mediasosial img {
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.mediasosial {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+}
+@media only screen and (min-width: 451px) {
+  /* Gaya CSS untuk layar dengan lebar maksimal 600px */
+.home	{
+	height: 100vh;
+	width: 100%;
+	background-color: #101010;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 100px;
+	padding-left: 100px;
+	background-color: white;
+	border-bottom: 3px solid #0074E4;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.logo {
+	cursor: pointer;
+}
+.logo img {
+	width: 150px;
+	height: auto;
+}
+span {
+	color: #00A9FF;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	font-family: serif;
+	text-decoration: none;
+}
+nav ul li a {
+	color: #0074E4;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #071952;
+	transition: 0.5s;
+}
+.btn:active {
+	color: red;
+}
+.image {
+	width: 25%;
+	height: 90%;
+	position: absolute;
+	border: 0;
+	right: 30px;
+}
+/*shiroko*/
+.image img{
+	width: auto;
+	height: 85%;
+	position: absolute;
+	border: 0;
+	right: 23%;
+	top: 5%;
+	transform: translateX(20%);
+	margin-top: 100px;
+}
+.content {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	transform: translateX(-50%);
+}
+h4 {
+	letter-spacing: 2px;
+	font-size: 10px;
+	font-family: Georgia, serif;
+}
+h1 {
+	font-size: 30px ;
+	margin: 20px 0px 20px;
+	font-family: Georgia, serif;
+}
+h3 {
+	font-size: 12px;
+	margin-bottom: 50px ;
+	font-family: Georgia, serif;
+}
+.content a {
+	font-size: 15px;
+	background: #6499E9;
+	color: white;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 30px;
+	border: 20x solid white;
+	transition: 0.5s;
+}
+.content a:hover {
+	background: transparent;
+	border: 2px solid #A6F6FF;
+}
+.about {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #191919;
+}
+.about-me {
+	width: 1130px;
+	max-width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-me img {
+	height: 400px;
+	width: auto;
+	border-radius: 10px;
+}
+.about-text {
+	width: 250px;
+}
+.about-text h2 {
+	color: white;
+	font-size: 35px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #687EFF;
+}
+.about-text h5 {
+	color: white;
+	letter-spacing: 2px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p {
+	color: #fcfc;
+	letter-spacing: 1px;
+	word-spacing: -2px;
+	line-height: 20px;
+	font-size: 18px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+.button {
+	background-color: #687EFF;
+	color: white;
+	border: 2px solid white;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: 0.3s;
+}
+.button:hover {
+	background-color: transparent;
+	border: 2px solid #687EFF;
+	cursor: pointer;
+}
+.services {
+	background: #101010;
+	width: 100%;
+	padding: 50px 0;
+}
+.title h2 {
+	color: white;
+	font-size: 55px;
+	width: 100%;
+	margin-bottom: 30px auto;
+	text-align: center;
+}
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.kartu {
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #141414;
+	border-radius:20px ;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid #687EFF;
+}
+.kartu i {
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0;
+	color: #00A9FF;
+}
+.kartu h5 {
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p {
+	color: #fcfc;
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+.pra p a {
+	background-color: #687EFF;
+	color: white;
+	border: 2px solid white;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+}
+.pra p a:hover {
+	background-color: transparent;
+	border: 2px solid #687EFF;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.kontak {
+	background: #191919;
+	width: 100%;
+	padding: 100px 0;
+}
+.mediasosial img {
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.mediasosial {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+}
+/*Batas max*/
+@media only screen and (min-width: 601px) {
+  /* Gaya CSS untuk layar dengan lebar maksimal 601px */
+.home	{
+	height: 100vh;
+	width: 100%;
+	background-color: #101010;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 100px;
+	padding-left: 100px;
+	background-color: white;
+	border-bottom: 3px solid #0074E4;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.logo {
+	cursor: pointer;
+}
+.logo img {
+	width: 150px;
+	height: auto;
+}
+span {
+	color: #00A9FF;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	font-family: serif;
+	text-decoration: none;
+}
+nav ul li a {
+	color: #0074E4;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #071952;
+	transition: 0.5s;
+}
+.btn:active {
+	color: red;
+}
+.image {
+	width: 23%;
+	height: 87%;
+	position: absolute;
+	border: 0;
+	right: 30px;
+}
+/*shiroko*/
+.image img{
+	width: 85%;
+	height: 90%;
+	position: absolute;
+	border: 0;
+	right: 23%;
+	top: 5%;
+	transform: translateX(20%);
+	margin-top: 100px;
+}
+.content {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	transform: translateX(-50%);
+}
+h4 {
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-family: Georgia, serif;
+}
+h1 {
+	font-size: 65px ;
+	margin: 20px 0px 20px;
+	font-family: Georgia, serif;
+}
+h3 {
+	font-size: 25px;
+	margin-bottom: 50px ;
+	font-family: Georgia, serif;
+}
+.content a {
+	font-size: 20px;
+	background: #6499E9;
+	color: white;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 30px;
+	border: 20x solid white;
+	transition: 0.5s;
+}
+.content a:hover {
+	background: transparent;
+	border: 2px solid #A6F6FF;
+}
+.about {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #191919;
+}
+.about-me {
+	width: 1130px;
+	max-width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-me img {
+	height: auto;
+	width: 300px;
+	border-radius: 10px;
+}
+.about-text {
+	width: 550px;
+}
+.about-text h2 {
+	color: white;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #687EFF;
+}
+.about-text h5 {
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p {
+	color: #fcfc;
+	letter-spacing: 0px;
+	word-spacing: -3px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+.button {
+	background-color: #687EFF;
+	color: white;
+	border: 2px solid white;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: 0.3s;
+}
+.button:hover {
+	background-color: transparent;
+	border: 2px solid #687EFF;
+	cursor: pointer;
+}
+.services {
+	background: #101010;
+	width: 100%;
+	padding: 50px 0;
+}
+.title h2 {
+	color: white;
+	font-size: 75px;
+	width: 100%;
+	margin-bottom: 30px auto;
+	text-align: center;
+}
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.kartu {
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #141414;
+	border-radius:20px ;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid #687EFF;
+}
+.kartu i {
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0;
+	color: #00A9FF;
+}
+.kartu h5 {
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p {
+	color: #fcfc;
+	font-size: 12px;
+	line-height: 27px;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+.pra p a {
+	background-color: #687EFF;
+	color: white;
+	border: 2px solid white;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+}
+.pra p a:hover {
+	background-color: transparent;
+	border: 2px solid #687EFF;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.kontak {
+	background: #191919;
+	width: 100%;
+	padding: 100px 0;
+}
+.mediasosial img {
+	width: 50px;
+	height: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.mediasosial {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+}
+/*Batas min*/

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Terang Bulan</title>
+	<link rel="stylesheet" type="text/css" href="order.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+	<div class="beranda">
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> <img src="image/terang logo.png" width="200" height="auto"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Daftar isi</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="TerangBulan.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="TerangBulan.html#menu-text">Menu</a>
+          </li>
+                    <li class="nav-item">
+            <a class="nav-link" href="TerangBulan.html#kontak">Contact</a>
+          </li>
+                    <li class="nav-item">
+            <a class="nav-link" href="order.html">Order</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+	<div class="image">
+		<img src="">
+	</div>
+	<div id="pesan" class="order">
+		    <h1>Formulir Pemesanan</h1>
+  <form id="orderForm">
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama" required>
+
+    <label for="alamat">Alamat:</label>
+    <input type="text" id="alamat" name="alamat" required>
+
+    <label for="barang">Barang yang Dipesan:</label>
+    <input type="text" id="barang" name="barang" required>
+
+    <label for="jumlah">Jumlah:</label>
+    <input type="number" id="jumlah" name="jumlah" required>
+
+    <label for="catatan">Catatan:</label>
+    <textarea id="catatan" name="catatan" rows="2"></textarea>
+
+    <button class="tombol" type="button" onclick="submitForm()">Order</button>
+  </form>
+
+  <div id="terimakasih">
+    <p>Terima kasih sudah memesan!</p>
+    <img src="image/kuru.gif">
+  </div>
+
+  <script src="script.js"></script>
+	</div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
